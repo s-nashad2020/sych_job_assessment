@@ -19,12 +19,12 @@ This is a lightweight web service built with FastAPI, allowing users to run mach
 
 1. **Install Dependencies**: Ensure you have FastAPI and Uvicorn installed. If not, you can install them using pip:
 
-pip install fastapi uvicorn
+  pip install fastapi uvicorn
 
 
 2. **Run the FastAPI Server**: Use the following command to start the FastAPI server:
 
-uvicorn main --host 0.0.0.0 --port 8080
+  uvicorn main --host 0.0.0.0 --port 8080
 
 
 3. **Send Requests**: Once the server is running, you can send requests to the service using tools like cURL or Postman.
@@ -37,16 +37,14 @@ The Dockerfile included in this project is used to containerize the FastAPI appl
 
 1. **Build the Docker Image**: Execute the following command to build the Docker image:
 
-docker build -t fastapi-prediction-service .
+  docker build -t fastapi-prediction-service .
 
 
 2. **Run the Docker Container**: Once the Docker image is built, you can run the Docker container with the following command:
 
-docker run -d -p 8080:8080 fastapi-prediction-service
+  docker run -d -p 8080:8080 fastapi-prediction-service
 
 
 ## Contributors
 
 - [Shaheer Nashad](https://github.com/s-nashad2020)
-
-Feel free to contribute, report issues, or provide feedback. We hope you find this service helpful for your machine learning prediction needs!
